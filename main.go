@@ -15,5 +15,5 @@ func main() {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)
 		os.Exit(1)
 	}
-	os.Stdout.Write(reflected)
+	fmt.Fprintln(os.Stdout, string(reflected))
 }
