@@ -96,10 +96,13 @@ github.com/cockroachdb/cmux v0.0.0-20170110192607-30d10be49292/go.mod h1:qRiX68m
 github.com/concourse/baggageclaim v1.6.5 h1:nqUNImvNPagFWLpjmYM3K/iUtXcgjWCXGUVEcQtIHUc=
 github.com/concourse/baggageclaim v1.6.5/go.mod h1:XEX/nfW5iJQwJVLUh1AxyqtFRLeyM+iZLeKMUEloiKc=
 github.com/concourse/baggageclaim v1.8.0/go.mod h1:UdvVE2W8LgXcCz0ZdKBwUbpKZ0KN4Fx1OeY1xtZOUvY=
+github.com/concourse/concourse v1.6.0 h1:3SOfoBBDTZ6sJTrgqh6cKppLmHbPs3B01hn4cyp6jvQ=
 github.com/concourse/concourse v1.6.1-0.20200325153021-559620ba019a h1:8bsoSyNv9grY/hw0KvZlq60SxP3MN17N8xha+IYD6D8=
 github.com/concourse/concourse v1.6.1-0.20200325153021-559620ba019a/go.mod h1:+PHz/iuBJNhTBzbA/VkJE+rPlDqBUWilIFhJTgVvoXw=
 github.com/concourse/concourse v1.6.1-0.20200821142901-f618ed1d198d h1:fzFdQbA/ClBSuT+sL67a/byowDNrMZIF60ZE7nPcBQQ=
 github.com/concourse/concourse v1.6.1-0.20200821142901-f618ed1d198d/go.mod h1:cD/TTXBXfJDvCkHLhZzOspz7Zlar8yqNdFQxIxtrxrU=
+github.com/concourse/concourse v1.6.1-0.20201001005807-76187be2e06d h1:XsYnzGvSC/h/9R+cS/QF7iWkDLb/64/ri8tb/lCwl74=
+github.com/concourse/concourse v1.6.1-0.20201001005807-76187be2e06d/go.mod h1:cD/TTXBXfJDvCkHLhZzOspz7Zlar8yqNdFQxIxtrxrU=
 github.com/concourse/dex v0.0.0-20191105150807-8bbc2a6df1ea/go.mod h1:jq+kdbXyj+bEdch50oYfPCNK4ZCRKAd/R0wlZuAG+Gc=
 github.com/concourse/dex v0.0.0-20200730150203-821b48abfd88/go.mod h1:7xVx6jMkg5UoaGhDHp3mGdETzdVSTY8dOEG1v6ixNQc=
 github.com/concourse/flag v0.0.0-20180907155614-cb47f24fff1c/go.mod h1:ngs845OZCESOe8vgeK5fsCNIiS0vUSqB8MGQMS9+4og=
