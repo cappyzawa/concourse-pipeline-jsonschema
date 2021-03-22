@@ -7,7 +7,8 @@ require (
 	github.com/alecthomas/jsonschema v0.0.0-20200217214135-7152f22193c9
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/cockroachdb/cmux v0.0.0-20170110192607-30d10be49292 // indirect
-	github.com/concourse/concourse v1.6.1-0.20210210220406-35e971a307d3
+	github.com/concourse/concourse v1.6.1-0.20210311213122-28153d0cb8dd
+	github.com/gobuffalo/packr v1.13.7 // indirect
 	github.com/goccy/go-yaml v1.8.8 // indirect
 	github.com/gtank/cryptopasta v0.0.0-20160720052843-e7e23673cac3 // indirect
 	github.com/joefitzgerald/rainbow-reporter v0.1.0 // indirect
