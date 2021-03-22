@@ -118,6 +118,8 @@ github.com/concourse/concourse v1.6.1-0.20201125013602-95a8700efeec h1:vQtkZ7THK
 github.com/concourse/concourse v1.6.1-0.20201125013602-95a8700efeec/go.mod h1:cD/TTXBXfJDvCkHLhZzOspz7Zlar8yqNdFQxIxtrxrU=
 github.com/concourse/concourse v1.6.1-0.20210111210719-83003b1c529f h1:Jtof85C/7BK5AzbB1TznP5lcCBmO9et63Ea0sIA6GP8=
 github.com/concourse/concourse v1.6.1-0.20210111210719-83003b1c529f/go.mod h1:uDHN5QbX+HiisGByN40o42QrMXuXHOJYgOqYxp2MfgE=
+github.com/concourse/concourse v1.6.1-0.20210122202053-08aaab16f3dd h1:ru/EKaF8OwoiTGYcGrYTNz8BCURUGasPzbTElk5cH3k=
+github.com/concourse/concourse v1.6.1-0.20210122202053-08aaab16f3dd/go.mod h1:uDHN5QbX+HiisGByN40o42QrMXuXHOJYgOqYxp2MfgE=
 github.com/concourse/dex v0.0.0-20191105150807-8bbc2a6df1ea/go.mod h1:jq+kdbXyj+bEdch50oYfPCNK4ZCRKAd/R0wlZuAG+Gc=
 github.com/concourse/dex v0.0.0-20200730150203-821b48abfd88/go.mod h1:7xVx6jMkg5UoaGhDHp3mGdETzdVSTY8dOEG1v6ixNQc=
 github.com/concourse/dex v0.3.0/go.mod h1:Q8YPkw98XIkeTWO6Jm2ZMycdaf1NrNrPdvUOnpjYXtA=

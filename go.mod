@@ -8,6 +8,6 @@ require (
 	github.com/alecthomas/jsonschema v0.0.0-20200217214135-7152f22193c9
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/cockroachdb/cmux v0.0.0-20170110192607-30d10be49292 // indirect
-	github.com/concourse/concourse v1.6.1-0.20210111210719-83003b1c529f
+	github.com/concourse/concourse v1.6.1-0.20210122202053-08aaab16f3dd
 	github.com/gtank/cryptopasta v0.0.0-20160720052843-e7e23673cac3 // indirect
 )
