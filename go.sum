@@ -223,6 +223,8 @@ github.com/concourse/concourse v1.6.1-0.20211026133350-e3d9f5bb1d41 h1:NPbYq1Gr/
 github.com/concourse/concourse v1.6.1-0.20211026133350-e3d9f5bb1d41/go.mod h1:IoTjqAdW4oC+B07Ym5jEg2d6U2uFNb5Kck7tg3J67wY=
 github.com/concourse/concourse v1.6.1-0.20220307155334-473cbc808783 h1:vKo0zife7Ks7Z1YELvkmDzA87MXoS1ysyqJyuXavrjc=
 github.com/concourse/concourse v1.6.1-0.20220307155334-473cbc808783/go.mod h1:iczPcNcQNN2MnYT8d/hXDjXEKKSNiGw3iM+iBXuUlgQ=
+github.com/concourse/concourse v1.6.1-0.20220326014530-cb6afdc853cc h1:RKpyMDOZxBA35AfRTQPLgfPxNNIQ4lxTBDHuqX79C9c=
+github.com/concourse/concourse v1.6.1-0.20220326014530-cb6afdc853cc/go.mod h1:iczPcNcQNN2MnYT8d/hXDjXEKKSNiGw3iM+iBXuUlgQ=
 github.com/concourse/dex v0.7.0/go.mod h1:bkH7clreyLOrHOjWN0N2Hdobk0p5TNn3GEf7K2RxFZg=
 github.com/concourse/dex v0.8.0/go.mod h1:NX6WRnW0g+l0fsJdKpPNF8REEnH2E8f2FnHLXmqkvDs=
 github.com/concourse/flag v1.1.0/go.mod h1:ngs845OZCESOe8vgeK5fsCNIiS0vUSqB8MGQMS9+4og=
