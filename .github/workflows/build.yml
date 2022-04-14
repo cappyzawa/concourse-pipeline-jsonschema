@@ -17,12 +17,12 @@ jobs:
     - name: Dependency
       uses: actions/setup-go@master
       with:
-        go-version: "1.15"
+        go-version: "1.17"
     - name: Build Schema
       run: |
         go run main.go > ./concourse_jsonschema.json
-    - name: Updat Schema
-      uses: github-actions-x/commit@v2.3
+    - name: Update Schema
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
@@ -30,4 +30,4 @@ jobs:
         force-add: 'true'
         files: ./concourse_jsonschema.json
         name: cappyzawa
-        email: cappyzawa@yahoo.ne.jp
+        email: cappyzawa@gmail.com
