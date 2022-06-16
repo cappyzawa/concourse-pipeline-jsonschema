@@ -1,6 +1,6 @@
 module github.com/cappyzawa/concourse-pipeline-jsonschema
 
-go 1.17
+go 1.18
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20200217214135-7152f22193c9
