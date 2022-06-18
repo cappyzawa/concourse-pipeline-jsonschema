@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20200217214135-7152f22193c9
-	github.com/concourse/concourse v1.6.1-0.20220605215003-5d40d860f1cc
+	github.com/concourse/concourse v1.6.1-0.20220613144821-3964629d2843
 )
 
 require (
