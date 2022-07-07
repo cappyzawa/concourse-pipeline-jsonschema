@@ -1,12 +1,11 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"os"
 
-	"github.com/alecthomas/jsonschema"
 	"github.com/concourse/concourse/atc"
+	"github.com/invopop/jsonschema"
 )
 
 func stepSchema(schema *jsonschema.Schema) {
@@ -27,7 +26,7 @@ func stepSchema(schema *jsonschema.Schema) {
 
 	for _, s := range stepConfigs {
 		stepSchema := jsonschema.Reflect(s)
-		stepDef.AnyOf = append(stepDef.AnyOf, stepSchema.Type)
+		stepDef.AnyOf = append(stepDef.AnyOf, stepSchema.ContentSchema)
 		for subName, subDef := range stepSchema.Definitions {
 			if _, present := schema.Definitions[subName]; !present {
 				schema.Definitions[subName] = subDef
@@ -44,7 +43,7 @@ func main() {
 	var pipelineConfig atc.Config
 	schema := jsonschema.Reflect(&pipelineConfig)
 	stepSchema(schema)
-	schema.AdditionalProperties = json.RawMessage("true")
+	schema.AdditionalProperties = jsonschema.TrueSchema
 	schema.Definitions["CheckEvery"].Type = "string"
 	reflected, err := schema.MarshalJSON()
 	if err != nil {
