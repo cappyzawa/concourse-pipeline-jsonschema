@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 
@@ -43,6 +44,7 @@ func main() {
 	var pipelineConfig atc.Config
 	schema := jsonschema.Reflect(&pipelineConfig)
 	stepSchema(schema)
+	schema.AdditionalProperties = json.RawMessage("true")
 	reflected, err := schema.MarshalJSON()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)
