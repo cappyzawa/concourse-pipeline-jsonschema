@@ -45,6 +45,7 @@ func main() {
 	schema := jsonschema.Reflect(&pipelineConfig)
 	stepSchema(schema)
 	schema.AdditionalProperties = json.RawMessage("true")
+	schema.Definitions["CheckEvery"].Type = "string"
 	reflected, err := schema.MarshalJSON()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)
